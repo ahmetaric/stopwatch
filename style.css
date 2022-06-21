@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   background-image:url("https://picsum.photos/id/684/600/400?blur=5"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+}
+.stopwatch-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
+}
