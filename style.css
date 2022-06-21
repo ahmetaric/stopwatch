@@ -26,6 +26,8 @@ h1{
     text-shadow: 3px 3px 3px #fff;
     border: 2px solid #fff;
     border-radius: 10px;
+    box-shadow: 3px 3px  burlywood;
+    z-index: 1;
     padding: 20px;
     
 }
@@ -33,11 +35,44 @@ h1{
 #timerDisplay{
     font-size: 30px;
     margin-bottom: 3rem;
-    color: coral;
+    text-align: center;
+    text-shadow: 3px 3px 3px #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px  burlywood;
+    padding: 10px;
+   
+    
+}
+
+button{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 3rem;
     text-align: center;
     text-shadow: 3px 3px 3px #fff;
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 10px;
+   
     
+}
+
+#pause{
+    margin-right: 5rem;
+    color: forestgreen
+    
+}
+
+#start{
+    margin-right: 5rem;
+    color: red
+}
+
+#reset{
+    
+    color: aquamarine
 }
