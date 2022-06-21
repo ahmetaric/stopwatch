@@ -7,6 +7,7 @@ body{
    background-image:url("https://picsum.photos/id/684/600/400?blur=5"); 
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
    
 }
@@ -16,4 +17,27 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
    
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 3rem;
+    color: coral;
+    text-align: center;
+    text-shadow: 3px 3px 3px #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+#timerDisplay{
+    font-size: 30px;
+    margin-bottom: 3rem;
+    color: coral;
+    text-align: center;
+    text-shadow: 3px 3px 3px #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    
 }
