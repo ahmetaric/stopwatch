@@ -53,7 +53,7 @@ button{
     font-size: 20px;
     margin-bottom: 3rem;
     text-align: center;
-    text-shadow: 3px 3px 3px #fff;
+    text-shadow: 3px 3px 5px black;
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 10px;
@@ -61,18 +61,14 @@ button{
     
 }
 
-#pause{
-    margin-right: 5rem;
-    color: forestgreen;
-    
-}
-
 #start{
     margin-right: 5rem;
     color: red;
+    box-shadow: 2px 2px 2px;
 }
 
 #reset{
+    margin-left: 11rem;
+    box-shadow: 2px 2px 2px;
     
-    color: aquamarine;
 }

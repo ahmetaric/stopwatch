@@ -1,4 +1,4 @@
-const pause = document.getElementById('pause');
+
 const start = document.getElementById('start');
 const reset = document.getElementById('reset');
 
@@ -8,14 +8,16 @@ let second = 0;
 let minute = 0;
 let loop;
 start.addEventListener("click", () => {
-    
-    clearInterval(loop);
-    loop = setInterval(counter,10)
-})
-
-pause.addEventListener("click", () => {
-
-     clearInterval(loop);
+    if(start.innerText == "Start"){
+        start.innerText = "Pause";
+        clearInterval(loop);
+        loop = setInterval(counter, 10);
+    }
+    else{
+      clearInterval(loop);
+      start.innerText = "Start";
+    }
+   
 })
 
 reset.addEventListener ("click", () => {
